@@ -1,0 +1,32 @@
+
+.tab button {
+  background-color: #228B22;
+  float: center;
+  border: currentColor;
+  /*outline: none;*/
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.1s;
+  font-size: 20px;
+  width:300px;
+}
+
+
+.tablinks {
+
+  background-color: #32CD32;
+  width: 4000px;
+  align-items: center;
+}
+.title{
+	color:#00FF7F;
+	font-size: 70px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+.subtitle{
+	color:#00FF7F;
+	font-size: 40px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
