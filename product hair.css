@@ -1,0 +1,61 @@
+
+.tab button {
+  background-color: #A2BD1B; 
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 1px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-width: 0.5px;
+  border-radius: 4px; 
+}
+.tablinks:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.tablinks {
+
+  background-color: #A2BD1B;
+  width: 250px;
+ 
+}
+
+.header {
+  padding: 4px;
+  text-align: center;
+  background: #A2BD1B;
+  color: white;
+  font-size: 30px;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.img{
+	max-width: 500px;
+	float:left;
+	margin-right: 20px;
+}
+
+.subtitle{
+	color:#A2BD1B;
+	font-size: 60px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+#img1{
+	width: 25%;
+	float:left;
+	margin-right: 20px;
+}
+.btn{
+	margin-left: 150px;
+}
