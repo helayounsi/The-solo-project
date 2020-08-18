@@ -1,13 +1,15 @@
 // tabbed menu
 
+
+
 function Nature(evt, menu) {
-  var i, tabcontent, tablinks;
+  var  tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
+  for (var i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
   tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
+  for (var i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(menu).style.display = "block";
@@ -15,12 +17,17 @@ function Nature(evt, menu) {
 }
 
 
-//price
+//price display
 
- 
+
+$('#getPrineButton').on('click', function(){
+  var value=$('#b').val();
+  console.log(value);
+ $('#output').text(value*20);
+})
+
+
 function myFunction() {
-  var x = document.createElement("OUTPUT");
-  x.setAttribute("name", "x");
-  x.setAttribute("for", "a b");
-  document.getElementById("myForm").appendChild(x);
-}
+  location.replace("Purchase.html")
+}       
+ 
